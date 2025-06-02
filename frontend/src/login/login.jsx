@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import './login.css';
 import { jwtDecode } from 'jwt-decode';
+import axios from 'axios';
+
+const apiBaseUrl = import.meta.env.VITE_API_BASE_URL;
+
 
 const LoginPage = () => {
   useEffect(() => {
@@ -48,7 +52,7 @@ const LoginPage = () => {
     }
 
     try {
-      const response = await fetch('http://localhost:4000/api/auth/login', {
+      const response = await axios.post(`${apiBaseUrl}/api/auth/login`,{
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
