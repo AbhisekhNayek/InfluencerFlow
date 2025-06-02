@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 40">
+  <defs>
+    <style>
+      .text { fill: #0ecbb1; font-size: 30px; font-family: 'Arial Black', sans-serif; font-weight: bold; }
+    </style>
+  </defs>
+  <text class="text" x="0" y="30">MicroMatch</text>
+</svg>
+

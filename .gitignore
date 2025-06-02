@@ -1,0 +1,12 @@
+# Node modules (frontend and backend)
+client/node_modules/
+backend/node_modules/
+
+# Build output (React)
+client/build/
+
+# Environment variables
+*.env
+
+# OS files
+.DS_Store
