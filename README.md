@@ -109,6 +109,63 @@ We’re on a mission to **democratize influencer marketing** 💡 by:
 
 ---
 
+## 🧑‍💻 Installation Guide
+
+### ⚙️ Backend Setup
+
+```bash
+# Step into the backend folder
+cd backend
+
+# Install dependencies
+npm install
+
+# Start the server
+node server.js
+```
+
+📝 **Create a `.env` file in the `backend/` folder with the following variables:**
+
+```env
+PORT=4000
+JWT_SECRET=your_jwt_secret
+
+MONGO_URI=your_mongo_db_uri
+
+CLIENT_URL=http://localhost:5173
+
+EMAIL_USER=your_email@example.com
+EMAIL_PASSWORD=your_email_password
+
+INSTAGRAM_TOKEN_URL=your_instagram_token_url
+
+RECOMMENDATION_API_URL=your_ml_recommendation_api
+VERIFICATION_API_URL=your_verification_api
+VALIDATION_API_URL=your_validation_api
+ANALYTICS_API_URL=your_analytics_api
+
+CLOUDINARY_CLOUD_NAME=your_cloudinary_name
+CLOUDINARY_API_KEY=your_cloudinary_key
+CLOUDINARY_API_SECRET=your_cloudinary_secret
+```
+
+---
+
+### 🎨 Frontend Setup
+
+```bash
+# Step into the frontend folder
+cd frontend
+
+# Install frontend dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+---
+
 ## 🤝 Contribute & Collaborate
 
 We 💙 open-source and community contributions!
@@ -125,7 +182,6 @@ We 💙 open-source and community contributions!
 
 ## 🔗 Live Website
 
-🌐 [https://micromatch.onrender.com](https://micromatch.onrender.com)
+🌐 [https://influencer-flow-black.vercel.app](https://influencer-flow-black.vercel.app)
 
 Let’s **redefine influencer marketing** together! 🧠📣✨
-
